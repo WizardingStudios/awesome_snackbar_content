@@ -31,7 +31,7 @@ class AwesomeSnackbarContent extends StatelessWidget {
   final bool inMaterialBanner;
   
   /// if you want to have padding around Message
-  final EdgeInsetsGeometry edgeInsetGeometry = const EdgeInsets.all(0);
+  final EdgeInsetsGeometry edgeInsetGeometry;
 
   const AwesomeSnackbarContent({
     Key? key,
